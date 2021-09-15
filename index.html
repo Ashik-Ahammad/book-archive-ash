@@ -15,15 +15,22 @@
         #spinner {
             display: none;
         }
+
+        .header {
+            text-align: center;
+            margin-top: 20px;
+            margin-bottom: 20px;
+        }
     </style>
 </head>
 
 <body>
     <!-- Header Part Here -->
     <header class="container">
+        <h1 class="header">Search your needed book here</h1>
         <!-- search input and search button -->
         <div class="input-group mb-3 mt-3 w-50 mx-auto ">
-            <input id="search-input" type="text" class="form-control" placeholder="Search your book">
+            <input id="search-input" type="text" class="form-control" placeholder="Search for your book">
             <button onclick="loadBooks()" class="btn btn-danger" type="button" id="search-btn">Search</button>
         </div>
         <!-- Spinner -->
